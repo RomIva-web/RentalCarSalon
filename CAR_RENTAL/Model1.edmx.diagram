@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="66963d57622e431faf496cdbfa0ca94c" Name="Diagram1">
+        <EntityTypeShape EntityType="CarRentalSalonModel.AdditionalService" Width="1.5" PointX="5.25" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CarRentalSalonModel.AdditionalServicesOnOrder" Width="1.5" PointX="3" PointY="4.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="CarRentalSalonModel.CatalogCar" Width="1.5" PointX="6" PointY="11.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="CarRentalSalonModel.ClassCar" Width="1.5" PointX="3.75" PointY="9.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="CarRentalSalonModel.Client" Width="1.5" PointX="6" PointY="17" IsExpanded="true" />
+        <EntityTypeShape EntityType="CarRentalSalonModel.CountryCar" Width="1.5" PointX="3.75" PointY="12.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="CarRentalSalonModel.Driver" Width="1.5" PointX="0.75" PointY="4.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="CarRentalSalonModel.Fine" Width="1.5" PointX="10.5" PointY="4.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="CarRentalSalonModel.NameFine" Width="1.5" PointX="8.25" PointY="8.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="CarRentalSalonModel.RentalCar" Width="1.5" PointX="8.25" PointY="3.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="CarRentalSalonModel.Role" Width="1.5" PointX="10.75" PointY="9" IsExpanded="true" />
+        <EntityTypeShape EntityType="CarRentalSalonModel.StatusAdditionalPaymentRentalCar" Width="1.5" PointX="6" PointY="20.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="CarRentalSalonModel.StatusCatalogCar" Width="1.5" PointX="3.75" PointY="14.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="CarRentalSalonModel.StatusPaymentRentalCar" Width="1.5" PointX="6" PointY="22.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="CarRentalSalonModel.StatusRentalCar" Width="1.5" PointX="6" PointY="24.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CarRentalSalonModel.sysdiagram" Width="1.5" PointX="0.75" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="CarRentalSalonModel.TypeCarDamage" Width="1.5" PointX="8.25" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CarRentalSalonModel.User" Width="1.5" PointX="13" PointY="8.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="CarRentalSalonModel.ReturnCarHaveDamage" Width="1.5" PointX="10.5" PointY="1.625" IsExpanded="true" />
+        <AssociationConnector Association="CarRentalSalonModel.FK__Additiona__Drive__403A8C7D" ManuallyRouted="false" />
+        <AssociationConnector Association="CarRentalSalonModel.FK__RentalCar__Addit__47DBAE45" ManuallyRouted="false" />
+        <AssociationConnector Association="CarRentalSalonModel.FK__CatalogCa__Class__33D4B598" ManuallyRouted="false" />
+        <AssociationConnector Association="CarRentalSalonModel.FK__CatalogCa__Count__34C8D9D1" ManuallyRouted="false" />
+        <AssociationConnector Association="CarRentalSalonModel.FK__CatalogCa__Statu__35BCFE0A" ManuallyRouted="false" />
+        <AssociationConnector Association="CarRentalSalonModel.FK__RentalCar__Catal__45F365D3" ManuallyRouted="false" />
+        <AssociationConnector Association="CarRentalSalonModel.FK__RentalCar__Clien__46E78A0C" ManuallyRouted="false" />
+        <AssociationConnector Association="CarRentalSalonModel.FK__Fines__NameFineI__5165187F" ManuallyRouted="false" />
+        <AssociationConnector Association="CarRentalSalonModel.FK__Fines__RentalCar__5070F446" ManuallyRouted="false" />
+        <AssociationConnector Association="CarRentalSalonModel.FK__RentalCar__Statu__48CFD27E" ManuallyRouted="false" />
+        <AssociationConnector Association="CarRentalSalonModel.FK__RentalCar__Statu__49C3F6B7" ManuallyRouted="false" />
+        <AssociationConnector Association="CarRentalSalonModel.FK__RentalCar__Statu__4AB81AF0" ManuallyRouted="false" />
+        <AssociationConnector Association="CarRentalSalonModel.FK__ReturnCar__Renta__4CA06362" ManuallyRouted="false" />
+        <AssociationConnector Association="CarRentalSalonModel.FK__Users__RoleId__5629CD9C" ManuallyRouted="false" />
+        <AssociationConnector Association="CarRentalSalonModel.FK__ReturnCar__TypeC__4D94879B" ManuallyRouted="false" />
+        <AssociationConnector Association="CarRentalSalonModel.OrderHasAdditionalServices" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
